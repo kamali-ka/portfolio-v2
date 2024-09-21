@@ -26,13 +26,21 @@ body {
   padding: 15px 40px;
   border-radius: 40px;
   background-color: #d4b0ee;
-  color: #4b0082;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+a{
+  color: #4b0082;
+  font-size: 20px;
 
+}
+nav a:hover{
+  color: #a359a0;
+  text-decoration: underline;
+}
 .toggle_img > img {
   width: 24px;
   height: 24px;
@@ -132,6 +140,7 @@ header > div > img {
 .content-div-about > .para-div > p {
   font-size: 30px;
   line-height: 1.5;
+  color: #4b0082;
 }
 .side-heading > h2 {
   font-size: 60px;
