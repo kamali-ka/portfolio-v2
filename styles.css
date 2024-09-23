@@ -19,6 +19,7 @@ body {
   position: fixed;
   bottom: 5%;
   right: 5%;
+  
 }
 .social-nav-items li {
   width: 50px;
@@ -27,6 +28,12 @@ body {
 .social-nav-items li a img {
   width: 100%;
   height: 100%;
+}
+nav i{
+  color: #4b0082;
+}
+nav button{
+  background-color: #4b0082;
 }
 
 .header {
@@ -45,27 +52,32 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-a {
-  color: #4b0082;
-  font-size: 20px;
+nav {
+  background:#d4b0ee;
+
+
 }
-nav a:hover {
-  color: #a359a0;
+
+nav {
+  border-bottom: 1px #e6e6fa;
+}
+
+nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  color: #4b0082 !important;
+}
+
+nav .nav-item a:hover {
   text-decoration: underline;
+  color:  rgb(185, 34, 185) !important;
 }
-.toggle_img > img {
-  width: 24px;
-  height: 24px;
-}
+
 header > div > img {
   width: 50px;
   height: 50px;
 }
-.nav_items {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-}
+
 .img-div > img {
   width: 450px;
   height: 450px;
@@ -84,14 +96,25 @@ header > div > img {
   align-items: center;
   justify-content: center;
   scroll-margin: 350px;
+  margin-bottom: 10px;
+}
+
+#home a{
+  text-decoration: none;
 }
 .name-div > h1 {
   color: #4b0082;
   font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .title-div > h2 {
   font-size: 40px;
   color: #4b0082;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .btn-grp {
   display: flex;
@@ -107,14 +130,18 @@ header > div > img {
 }
 .btn-grp a{
   color: #e6e6fa;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
+
 
 #about_me {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  scroll-margin: 250px;
+  scroll-margin: 200px;
 }
 
 .outer-div-about {
@@ -126,6 +153,11 @@ header > div > img {
 .side-heading > h2 {
   display: flex;
   justify-content: center;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #4b0082;
 }
 
 .content-div-about {
@@ -155,11 +187,11 @@ header > div > img {
   font-size: 30px;
   line-height: 1.5;
   color: #4b0082;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
-.side-heading > h2 {
-  font-size: 60px;
-  color: #4b0082;
-}
+
 .skills img {
   width: 50px;
   height: 50px;
@@ -179,25 +211,33 @@ header > div > img {
 .side-heading-skills h2 {
   font-size: 80px;
   color: #4b0082;
+  font-family: "Roboto", sans-serif;
+  font-weight: 750;
+  font-style: normal;
+  
 }
 #skills {
   scroll-margin: 200px;
-  margin-top: 100px;
+  margin-top: 90px;
 
 }
 .skills p {
   font-size: 25px;
   color: #4b0082;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .skills li {
   display: flex;
   gap: 8px;
   padding-bottom: 10px;
   align-items: center;
+  
 }
 #education {
   scroll-margin: 250px;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
   margin-top: 200px;
 }
 .education {
@@ -252,10 +292,16 @@ header > div > img {
 .side-heading-education h2 {
   font-size: 50px;
   color: #4b0082;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .education > div > p {
   font-size: 25px;
   color: #4b0082;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .outer-div-projects {
   display: flex;
@@ -264,6 +310,9 @@ header > div > img {
 .side-heading-projects h2 {
   font-size: 50px;
   color: #4b0082;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #projects {
@@ -330,5 +379,40 @@ header > div > img {
 @media only screen and (max-width: 600px) {
   .name-div > h1 {
     font-size: 55px;
+  }
+  .img-div>img{
+    width:350px;
+    height: 350px;
+  } 
+  .img-div-about img{
+    width: 350px;
+    height: 380px;
+    
+  }
+  .content-div-about > .para-div > p {
+    font-size:25px;
+  }
+  .education{
+    display: flex;
+    padding-left: 15px;
+  }
+   .school p{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Academy p{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .projects{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .pro-card{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
