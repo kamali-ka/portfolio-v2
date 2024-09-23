@@ -61,8 +61,6 @@ nav button{
 }
 nav {
   background:#d4b0ee;
-
-
 }
 
 nav {
@@ -388,6 +386,15 @@ header > div > img {
 
 /*Mobile Responsive*/
 @media only screen and (max-width: 600px) {
+  #social-nav {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    
+  }
+  body{
+    overflow-x: hidden;
+  }
   .name-div > h1 {
     font-size: 55px;
   }
