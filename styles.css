@@ -208,7 +208,7 @@ header > div > img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 5px;
+   gap: 5px;
 }
 .side-heading-skills {
   display: flex;
