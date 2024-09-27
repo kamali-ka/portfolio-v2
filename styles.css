@@ -433,4 +433,14 @@ header > div > img {
     display: flex;
     flex-wrap: wrap;
   }
+  #social-nav {
+    position: fixed;
+    z-index: 150;
+    
+  }
+  .social-nav-items li {
+    width: 30px;
+    height: 30px;
+  }
+  
 }
