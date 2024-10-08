@@ -182,9 +182,7 @@ header > div > img {
 
 }
 .img-div-about img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 0.86;
+  height:100%;
 }
 .para-div {
   max-width: 50%;
@@ -406,8 +404,7 @@ header > div > img {
     height: 350px;
   } 
   .img-div-about img{
-    width: 350px;
-    height: 380px;
+    width: 100%;
     
   }
   .content-div-about > .para-div > p {
